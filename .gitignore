@@ -1,4 +1,4 @@
-test_images
+test_images/*.jpg
 yolov5
 .idea
-coords_center
+coords_center/*
