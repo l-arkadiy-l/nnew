@@ -1,5 +1,5 @@
 # Yolo_Walruses_inference
-Видео как работает прокоект:
+Видео о том как работает проект:
 [![Watch the video](https://imgbly.com/ib/0Vy3VeZcUe.png)](https://youtu.be/ts2zGJ8hG-U?si=1WSXpfNYWwmvoG2q)
 ## Какие технологии использовали
 1. PyQt - создание приложения для отображения моржей
