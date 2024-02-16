@@ -35,14 +35,14 @@ if str(ROOT) not in sys.path:
 ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
 from models.common import DetectMultiBackend
-from hh.yolov5.utils.callbacks import Callbacks
-from hh.yolov5.utils.dataloaders import create_dataloader
-from hh.yolov5.utils.general import (LOGGER, check_dataset, check_img_size, check_requirements, check_yaml,
+from nnew.yolov5.utils.callbacks import Callbacks
+from nnew.yolov5.utils.dataloaders import create_dataloader
+from nnew.yolov5.utils.general import (LOGGER, check_dataset, check_img_size, check_requirements, check_yaml,
                                      coco80_to_coco91_class, colorstr, emojis, increment_path, non_max_suppression, print_args,
                                      scale_coords, xywh2xyxy, xyxy2xywh)
-from hh.yolov5.utils.metrics import ConfusionMatrix, ap_per_class, box_iou
-from hh.yolov5.utils.plots import output_to_target, plot_images, plot_val_study
-from hh.yolov5.utils.torch_utils import select_device, time_sync
+from nnew.yolov5.utils.metrics import ConfusionMatrix, ap_per_class, box_iou
+from nnew.yolov5.utils.plots import output_to_target, plot_images, plot_val_study
+from nnew.yolov5.utils.torch_utils import select_device, time_sync
 
 
 def save_one_txt(predn, save_conf, shape, file):
