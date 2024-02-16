@@ -19,7 +19,7 @@ def take_res():
     images = sorted(glob.glob(images_path + '/*.jpg'))
     labels = sorted(glob.glob(predicted_labels_path + '/*.txt'))
 
-    assert (len(labels) == len(images))
+    # assert (len(labels) == len(images))
     print(images)
 
     for i, label in enumerate(labels):

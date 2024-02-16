@@ -66,10 +66,10 @@ if platform.system() != 'Windows':
 
 from models.experimental import attempt_load
 from models.yolo import Detect
-from hh.yolov5.utils.dataloaders import LoadImages
-from hh.yolov5.utils.general import (LOGGER, check_dataset, check_img_size, check_requirements, check_version, colorstr,
+from nnew.yolov5.utils.dataloaders import LoadImages
+from nnew.yolov5.utils.general import (LOGGER, check_dataset, check_img_size, check_requirements, check_version, colorstr,
                                      file_size, print_args, url2file)
-from hh.yolov5.utils.torch_utils import select_device
+from nnew.yolov5.utils.torch_utils import select_device
 
 
 def export_formats():

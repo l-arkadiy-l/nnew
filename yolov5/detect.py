@@ -39,11 +39,11 @@ if str(ROOT) not in sys.path:
 ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
 from models.common import DetectMultiBackend
-from hh.yolov5.utils.dataloaders import IMG_FORMATS, VID_FORMATS, LoadImages, LoadStreams
-from hh.yolov5.utils.general import (LOGGER, check_file, check_img_size, check_imshow, check_requirements, colorstr, cv2,
+from nnew.yolov5.utils.dataloaders import IMG_FORMATS, VID_FORMATS, LoadImages, LoadStreams
+from nnew.yolov5.utils.general import (LOGGER, check_file, check_img_size, check_imshow, check_requirements, colorstr, cv2,
                                      increment_path, non_max_suppression, print_args, scale_coords, strip_optimizer, xyxy2xywh)
-from hh.yolov5.utils.plots import Annotator, colors, save_one_box
-from hh.yolov5.utils.torch_utils import select_device, time_sync
+from nnew.yolov5.utils.plots import Annotator, colors, save_one_box
+from nnew.yolov5.utils.torch_utils import select_device, time_sync
 
 
 @torch.no_grad()
